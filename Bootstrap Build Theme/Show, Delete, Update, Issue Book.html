@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Show, Delete, Update and Issue the Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Bootstrap/css/bootstrap.css" />
+</head>
+<body>
+    <div class="container">
+        
+        <div class="jumbotron" style="margin-top: 20px; margin-bottom: 10px; background-color: #00cc45; color: aliceblue">
+            <h1 class="display-4">Select, Delete, Update the Book in Record and Issue Book to Person.</h1>
+            <p class="lead">You can Delete A book from Record, Update the record of Book or Issue the Book to a person using the Following Information.</p>
+          </div>
+        
+          <button type="button" class="btn btn-primary" style="margin-top: 15px; margin-bottom: 15px"><a href="Add New Book.html" style="text-decoration: none;"><span style="color: aliceblue">Add New Book</span></a></button>
+          <button type="button" class="btn btn-dark" style="margin-top: 15px; margin-bottom: 15px"><a href="#" style="text-decoration: none;"><span style="color: aliceblue">See Record of Issued Books</span></a></button>
+        
+
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name of Book</th>
+                <th scope="col">Name of Author</th>
+                <th scope="col">Date of Publication</th>
+                <th scope="col">Price of Book</th>
+                <th scope="col">Shelf Numer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>C How to Program</td>
+                <td>Harvey Dietal</td>
+                <td>May, 1992</td>
+                <td>15000</td>
+                <td>12D</td>
+                <td><button type="button" class="btn btn-danger">Danger</button></td>
+                <td><button type="button" class="btn btn-warning"><span style="color: aliceblue">Update</span></button></td>
+                <td><button type="button" class="btn btn-success">Issue</button></td>
+              </tr>
+              <tr>
+                    <th scope="row">2</th>
+                    <td>Java How to Program</td>
+                    <td>Paul Dietal</td>
+                    <td>December, 1996</td>
+                    <td>20000</td>
+                    <td>12J</td>
+                    <td><button type="button" class="btn btn-danger">Danger</button></td>
+                    <td><button type="button" class="btn btn-warning"><span style="color: aliceblue">Update</span></button></td>
+                    <td><button type="button" class="btn btn-success">Issue</button></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+</html>
